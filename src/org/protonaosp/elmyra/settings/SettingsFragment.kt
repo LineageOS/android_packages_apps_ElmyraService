@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package org.protonaosp.elmyra
+package org.protonaosp.elmyra.settings
 
 import android.os.Bundle
 import android.content.SharedPreferences
@@ -24,8 +24,14 @@ import androidx.preference.ListPreference
 import androidx.preference.SwitchPreference
 import com.android.settings.widget.LabeledSeekBarPreference
 
+import org.protonaosp.elmyra.R
 import org.protonaosp.elmyra.getDePrefs
 import org.protonaosp.elmyra.PREFS_NAME
+import org.protonaosp.elmyra.getEnabled
+import org.protonaosp.elmyra.getSensitivity
+import org.protonaosp.elmyra.getAction
+import org.protonaosp.elmyra.getActionName
+import org.protonaosp.elmyra.getAllowScreenOff
 
 // We need to use the "deprecated" PreferenceFragment to match Settings UI
 // AppCompat won't fully match the native device default settings theme
@@ -57,20 +63,20 @@ class SettingsFragment : PreferenceFragment(), SharedPreferences.OnSharedPrefere
     }
 
     private fun updateUi() {
+        // Enabled
+        findPreference<SwitchPreference>(getString(R.string.pref_key_enabled))?.apply {
+            setChecked(prefs.getEnabled(context))
+        }
+
         // Sensitivity value
         findPreference<LabeledSeekBarPreference>(getString(R.string.pref_key_sensitivity))?.apply {
-            progress = prefs.getInt(getString(R.string.pref_key_sensitivity),
-                    resources.getInteger(R.integer.default_sensitivity))
+            progress = prefs.getSensitivity(context)
         }
 
         // Action value and summary
         findPreference<ListPreference>(getString(R.string.pref_key_action))?.apply {
-            val actionNames = resources.getStringArray(R.array.action_names)
-            val actionValues = resources.getStringArray(R.array.action_values)
-
-            value = prefs.getString(getString(R.string.pref_key_action),
-                    getString(R.string.default_action))
-            summary = actionNames[actionValues.indexOf(value)]
+            value = prefs.getAction(context)
+            summary = prefs.getActionName(context)
         }
 
         // Screen state based on action
@@ -78,12 +84,13 @@ class SettingsFragment : PreferenceFragment(), SharedPreferences.OnSharedPrefere
             val screenForced = prefs.getBoolean(getString(R.string.pref_key_allow_screen_off_action_forced), false)
             setEnabled(!screenForced)
             if (screenForced) {
+                setSummary(getString(R.string.setting_screen_off_blocked_summary))
                 setPersistent(false)
                 setChecked(false)
             } else {
+                setSummary(getString(R.string.setting_screen_off_summary))
                 setPersistent(true)
-                setChecked(prefs.getBoolean(getString(R.string.pref_key_allow_screen_off),
-                        resources.getBoolean(R.bool.default_allow_screen_off)))
+                setChecked(prefs.getAllowScreenOff(context))
             }
         }
     }

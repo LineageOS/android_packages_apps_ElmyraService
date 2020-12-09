@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package org.protonaosp.elmyra
+package org.protonaosp.elmyra.settings
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -22,7 +22,9 @@ import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
 import androidx.preference.PreferenceManager
 
+import org.protonaosp.elmyra.R
 import org.protonaosp.elmyra.getDePrefs
+import org.protonaosp.elmyra.getEnabled
 
 class ToggleTileService : TileService(), SharedPreferences.OnSharedPreferenceChangeListener {
     private lateinit var prefs: SharedPreferences
@@ -38,15 +40,12 @@ class ToggleTileService : TileService(), SharedPreferences.OnSharedPreferenceCha
     }
 
     private fun update(state: Boolean? = null) {
-        qsTile.state = if (state ?: getEnabled()) Tile.STATE_ACTIVE else Tile.STATE_INACTIVE
+        qsTile.state = if (state ?: prefs.getEnabled(this)) Tile.STATE_ACTIVE else Tile.STATE_INACTIVE
         qsTile.updateTile()
     }
 
-    private fun getEnabled() = prefs.getBoolean(getString(R.string.pref_key_enabled),
-            resources.getBoolean(R.bool.default_enabled))
-
     override fun onClick() {
-        val newState = !getEnabled()
+        val newState = !prefs.getEnabled(this)
         prefs.edit().putBoolean(getString(R.string.pref_key_enabled), newState).commit()
         update(newState)
     }
