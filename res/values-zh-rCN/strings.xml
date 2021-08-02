@@ -29,7 +29,9 @@
     <string name="setting_sensitivity_firm">重压</string>
     <string name="setting_screen_off_title">允许屏幕关闭时使用</string>
     <string name="setting_screen_off_summary">可能导致误操作</string>
-    <string name="setting_action_title">不支持当前操作</string>
+    <string name="setting_action_title">激活操作</string>
+    <string name="setting_screen_off_blocked_summary">不支持当前操作</string>
+
 
     <!-- Actions -->
     <string name="action_screenshot_name">屏幕截图</string>

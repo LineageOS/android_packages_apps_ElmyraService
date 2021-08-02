@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2020 The Proton AOSP Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">Active Edge</string>
+    <string name="settings_entry_summary_on">已啟用<xliff:g id="action" example="螢幕截圖">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">關閉</string>
+    <string name="settings_search_keywords">Active Edge, squeeze, edge, gesture, assist, assistant</string>
+
+    <!-- Items in Active Edge gesture settings -->
+    <string name="setting_enabled_title">使用 Active Edge</string>
+    <string name="setting_enabled_summary">按壓和鬆開手機兩側下方區域以啟用操作</string>
+    <string name="setting_sensitivity_title">靈敏度</string>
+    <string name="setting_sensitivity_light">輕壓</string>
+    <string name="setting_sensitivity_firm">重壓</string>
+    <string name="setting_screen_off_title">允許螢幕關閉時使用</string>
+    <string name="setting_screen_off_summary">可能導致誤操作</string>
+    <string name="setting_action_title">啟用操作</string>
+    <string name="setting_screen_off_blocked_summary">不支援當前操作</string>
+
+
+    <!-- Actions -->
+    <string name="action_screenshot_name">螢幕截圖</string>
+    <string name="action_assistant_name">開啟助手應用</string>
+    <string name="action_camera_name">開啟相機</string>
+    <string name="action_power_menu_name">電源選單</string>
+    <string name="action_mute_name">靜音</string>
+    <string name="action_flashlight_name">手電筒</string>
+    <string name="action_screen_name">喚醒/休眠</string>
+</resources>
