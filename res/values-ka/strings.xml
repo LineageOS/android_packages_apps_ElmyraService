@@ -15,5 +15,25 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">მომსახურება Active Edge</string>
+    <string name="settings_entry_title">Active Edge</string>
+    <string name="settings_entry_summary_on">ჩართ. / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">გამორთ.</string>
+    <string name="settings_search_keywords">Active Edge, შემოჭერა, კიდე, ჟესტი, დამხმარე, თანაშემწე</string>
+    <string name="setting_enabled_title">მოუჭირეთ ტელეფონს მოქმედებისთვის</string>
+    <string name="setting_enabled_summary">მოქმედების შესასრულებლად, ხელი მოუჭირეთ და მოუშვით ტელეფონის ქვედა კიდეებზე</string>
+    <string name="setting_sensitivity_title">მგრძნობელობა</string>
+    <string name="setting_sensitivity_light">მსუბუქად შემოჭერა</string>
+    <string name="setting_sensitivity_firm">ძლიერად შემოჭერა</string>
+    <string name="setting_screen_off_title">დაშვება გამორთულ ეკრანზეც</string>
     <string name="setting_screen_off_summary">გაზრდის ამოქმედების ცრუ შემთხვევებს</string>
+    <string name="setting_screen_off_blocked_summary">ზღუდავს მიმდინარე მოქმედება</string>
+    <string name="setting_action_title">შემოჭერისას</string>
+    <string name="action_screenshot_name">ეკრანის სურათის გადაღება</string>
+    <string name="action_assistant_name">თანაშემწის გახსნა</string>
+    <string name="action_camera_name">კამერის გახსნა</string>
+    <string name="action_power_menu_name">კვების მენიუს გახსნა</string>
+    <string name="action_mute_name">ზარებისა და შეტყობინებების დადუმება</string>
+    <string name="action_flashlight_name">სანათის ჩართვა/გამორთვა</string>
+    <string name="action_screen_name">ეკრანის ჩართვა/გამორთვა</string>
 </resources>

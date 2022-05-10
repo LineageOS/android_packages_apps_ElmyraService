@@ -15,13 +15,8 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="settings_entry_summary_on">Aktif / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
-    <string name="setting_sensitivity_title">Sensitivitas</string>
-    <string name="setting_screen_off_title">Izinkan saat layar mati</string>
-    <string name="setting_screen_off_blocked_summary">Diblokir oleh tindakan saat ini</string>
-    <string name="action_screenshot_name">Ambil tangkapan layar</string>
-    <string name="action_assistant_name">Buka asisten</string>
-    <string name="action_camera_name">Buka kamera</string>
-    <string name="action_power_menu_name">Buka menu daya</string>
-    <string name="action_mute_name">Senyapkan panggilan dan notifikasi</string>
+    <string name="settings_entry_summary_on">Увімкнено / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="action_screenshot_name">Зробити знімок екрана</string>
+    <string name="action_camera_name">Відкрити камеру</string>
+    <string name="action_power_menu_name">Відкрити меню живлення</string>
 </resources>
