@@ -16,6 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="settings_entry_summary_on">Aktif / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Mati</string>
     <string name="setting_sensitivity_title">Sensitivitas</string>
     <string name="setting_screen_off_title">Izinkan saat layar mati</string>
     <string name="setting_screen_off_blocked_summary">Diblokir oleh tindakan saat ini</string>
@@ -24,4 +25,6 @@
     <string name="action_camera_name">Buka kamera</string>
     <string name="action_power_menu_name">Buka menu daya</string>
     <string name="action_mute_name">Senyapkan panggilan dan notifikasi</string>
+    <string name="action_flashlight_name">Aktifkan/matikan lampu senter</string>
+    <string name="action_screen_name">Aktifkan/matikan layar</string>
 </resources>

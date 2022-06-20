@@ -25,15 +25,15 @@
     <string name="setting_sensitivity_title">მგრძნობელობა</string>
     <string name="setting_sensitivity_light">მსუბუქად შემოჭერა</string>
     <string name="setting_sensitivity_firm">ძლიერად შემოჭერა</string>
-    <string name="setting_screen_off_title">დაშვება გამორთულ ეკრანზეც</string>
+    <string name="setting_screen_off_title">ნებართვა ჩამქრალ ეკრანზეც</string>
     <string name="setting_screen_off_summary">გაზრდის ამოქმედების ცრუ შემთხვევებს</string>
     <string name="setting_screen_off_blocked_summary">ზღუდავს მიმდინარე მოქმედება</string>
     <string name="setting_action_title">შემოჭერისას</string>
     <string name="action_screenshot_name">ეკრანის სურათის გადაღება</string>
     <string name="action_assistant_name">თანაშემწის გახსნა</string>
     <string name="action_camera_name">კამერის გახსნა</string>
-    <string name="action_power_menu_name">კვების მენიუს გახსნა</string>
+    <string name="action_power_menu_name">ჩართვის მენიუს გახსნა</string>
     <string name="action_mute_name">ზარებისა და შეტყობინებების დადუმება</string>
     <string name="action_flashlight_name">სანათის ჩართვა/გამორთვა</string>
-    <string name="action_screen_name">ეკრანის ჩართვა/გამორთვა</string>
+    <string name="action_screen_name">ეკრანის ანთება/ჩაქრობა</string>
 </resources>
