@@ -24,6 +24,5 @@
         <permission name="android.permission.INTERNAL_SYSTEM_WINDOW" />
         <permission name="android.permission.DEVICE_POWER" />
         <permission name="android.permission.STATUS_BAR_SERVICE" />
-        <permission name="android.permission.INTERACT_ACROSS_USERS_FULL" />
     </privapp-permissions>
 </permissions>
