@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8a7c1f3_4f55a9fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2022-10-29T07:56:42Z",
+      "side": 1,
+      "message": "10-29 08:04:41.879  1566  1954 W BroadcastQueue: Permission Denial: Receiver org.protonaosp.elmyra/.BootReceiver requests FLAG_SINGLE_USER, but app does not hold android.permission.INTERACT_ACROSS_USERS",
+      "revId": "725dee001bb367e53744e85daf470719e128b0a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
