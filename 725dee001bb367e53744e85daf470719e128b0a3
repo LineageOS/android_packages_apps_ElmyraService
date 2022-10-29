@@ -51,6 +51,23 @@
       "parentUuid": "7fdd8b0d_33942001",
       "revId": "725dee001bb367e53744e85daf470719e128b0a3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96b6c9d0_166935b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2022-10-29T12:39:29Z",
+      "side": 1,
+      "message": "which is same as reverting 337827",
+      "revId": "725dee001bb367e53744e85daf470719e128b0a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
