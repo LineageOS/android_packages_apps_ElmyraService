@@ -34,7 +34,7 @@ class ScreenshotAction(context: Context) : Action(context) {
 
     override fun run() {
         helper.takeScreenshot(WindowManager.TAKE_SCREENSHOT_FULLSCREEN,
-                true, true, WindowManager.ScreenshotSource.SCREENSHOT_OTHER,
+                WindowManager.ScreenshotSource.SCREENSHOT_OTHER,
                 handler, null)
     }
 }
