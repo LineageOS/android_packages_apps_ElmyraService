@@ -33,8 +33,6 @@ class ScreenshotAction(context: Context) : Action(context) {
     override fun canRunWhenScreenOff() = false
 
     override fun run() {
-        helper.takeScreenshot(WindowManager.TAKE_SCREENSHOT_FULLSCREEN,
-                WindowManager.ScreenshotSource.SCREENSHOT_OTHER,
-                handler, null)
+        helper.takeScreenshot(WindowManager.ScreenshotSource.SCREENSHOT_OTHER, handler, null)
     }
 }
