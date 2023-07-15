@@ -19,4 +19,5 @@
     <string name="setting_sensitivity_firm">Моцнае сцісканне</string>
     <string name="setting_screen_off_blocked_summary">Заблакіравана бягучым дзеяннем</string>
     <string name="action_flashlight_name">Уключыць/выключыць ліхтарык</string>
+    <string name="action_screen_name">Уключыць/выключыць экран</string>
 </resources>
