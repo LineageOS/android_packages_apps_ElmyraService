@@ -20,11 +20,18 @@ import android.os.Bundle
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity
 
-import org.protonaosp.elmyra.R
+import org.protonaosp.elmyra.TAG
 
 class SettingsActivity : CollapsingToolbarBaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.settings_activity)
+
+        fragmentManager
+                .beginTransaction()
+                .replace(
+                    com.android.settingslib.collapsingtoolbar.R.id.content_frame,
+                    SettingsFragment(),
+                    TAG)
+                .commit()
     }
 }
