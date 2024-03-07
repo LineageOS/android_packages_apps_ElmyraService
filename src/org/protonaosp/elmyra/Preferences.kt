@@ -32,8 +32,10 @@ fun SharedPreferences.getEnabled(context: Context): Boolean {
 }
 
 fun SharedPreferences.getAction(context: Context): String {
-    return getString(context.getString(R.string.pref_key_action),
-            context.getString(R.string.default_action))
+    return getString(
+        context.getString(R.string.pref_key_action),
+        context.getString(R.string.default_action)
+    ) ?: context.getString(R.string.default_action)
 }
 
 fun SharedPreferences.getAllowScreenOff(context: Context): Boolean {

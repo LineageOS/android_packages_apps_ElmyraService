@@ -50,8 +50,8 @@ class ToggleTileService : TileService(), SharedPreferences.OnSharedPreferenceCha
         update(newState)
     }
 
-    override fun onSharedPreferenceChanged(prefs: SharedPreferences, key: String) {
-        if (key == getString(R.string.pref_key_enabled)) {
+    override fun onSharedPreferenceChanged(prefs: SharedPreferences, key: String?) {
+        if (key != null && key == getString(R.string.pref_key_enabled)) {
             update()
         }
     }

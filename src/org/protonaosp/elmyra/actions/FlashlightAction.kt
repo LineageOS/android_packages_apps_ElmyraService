@@ -58,7 +58,7 @@ class FlashlightAction(context: Context) : Action(context) {
 
     override fun run() {
         try {
-            cm.setTorchMode(torchCamId, !enabled)
+            cm.setTorchMode(torchCamId!!, !enabled)
         } catch (e: CameraAccessException) {
             Log.e(TAG, "Failed to set torch mode to $enabled", e)
             return

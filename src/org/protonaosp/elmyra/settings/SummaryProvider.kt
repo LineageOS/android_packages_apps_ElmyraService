@@ -33,17 +33,20 @@ class SummaryProvider : ContentProvider() {
     private lateinit var prefs: SharedPreferences
 
     override fun onCreate(): Boolean {
-        prefs = context.getDePrefs()
+        prefs = requireContext().getDePrefs()
         return true
     }
 
-    override fun call(method: String, uri: String, extras: Bundle?): Bundle {
+    override fun call(method: String, arg: String?, extras: Bundle?): Bundle? {
         val bundle = Bundle()
         val summary = when (method) {
-            "entry" -> if (prefs.getEnabled(context)) {
-                context.getString(R.string.settings_entry_summary_on, prefs.getActionName(context))
+            "entry" -> if (prefs.getEnabled(requireContext())) {
+                requireContext().getString(
+                    R.string.settings_entry_summary_on,
+                    prefs.getActionName(requireContext())
+                )
             } else {
-                context.getString(R.string.settings_entry_summary_off)
+                requireContext().getString(R.string.settings_entry_summary_off)
             }
             else -> throw IllegalArgumentException("Unknown method: $method")
         }
@@ -52,8 +55,8 @@ class SummaryProvider : ContentProvider() {
         return bundle
     }
 
-    override fun query(uri: Uri, projection: Array<String>, selection: String,
-            selectionArgs: Array<String>, sortOrder: String): Cursor {
+    override fun query(uri: Uri, projection: Array<String>?, selection: String?,
+            selectionArgs: Array<String>?, sortOrder: String?): Cursor? {
         throw UnsupportedOperationException()
     }
 
@@ -61,15 +64,15 @@ class SummaryProvider : ContentProvider() {
         throw UnsupportedOperationException()
     }
 
-    override fun insert(uri: Uri, values: ContentValues): Uri {
+    override fun insert(uri: Uri, values: ContentValues?): Uri? {
         throw UnsupportedOperationException()
     }
 
-    override fun delete(uri: Uri, selection: String, selectionArgs: Array<String>): Int {
+    override fun delete(uri: Uri, selection: String?, selectionArgs: Array<String>?): Int {
         throw UnsupportedOperationException()
     }
 
-    override fun update(uri: Uri, values: ContentValues, selection: String, selectionArgs: Array<String>): Int {
+    override fun update(uri: Uri, values: ContentValues?, selection: String?, selectionArgs: Array<String>?): Int {
         throw UnsupportedOperationException()
     }
 }

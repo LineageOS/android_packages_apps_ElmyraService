@@ -31,6 +31,6 @@ class PowerMenuAction(context: Context) : Action(context) {
             pm.wakeUp(SystemClock.uptimeMillis(), PowerManager.WAKE_REASON_GESTURE, "org.protonaosp.elmyra:GESTURE")
         }
 
-        wm.showGlobalActions()
+        wm!!.showGlobalActions()
     }
 }

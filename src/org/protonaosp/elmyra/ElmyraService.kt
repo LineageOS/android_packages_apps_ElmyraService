@@ -155,7 +155,8 @@ class ElmyraService : Service(), SharedPreferences.OnSharedPreferenceChangeListe
         }
     }
 
-    override fun onSharedPreferenceChanged(prefs: SharedPreferences, key: String) {
+    override fun onSharedPreferenceChanged(prefs: SharedPreferences, key: String?) {
+        if (key == null) return
         when (key) {
             getString(R.string.pref_key_enabled) -> updateEnabled()
             getString(R.string.pref_key_sensitivity) -> updateSensitivity()
