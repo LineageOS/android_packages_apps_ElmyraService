@@ -29,6 +29,7 @@ import android.hardware.location.NanoAppMessage
 import android.os.SystemClock
 import android.os.VibrationEffect
 import android.os.Vibrator
+import android.os.VibratorManager
 import android.util.Log
 import androidx.preference.PreferenceManager
 
@@ -71,7 +72,8 @@ class ElmyraService : Service(), SharedPreferences.OnSharedPreferenceChangeListe
     override fun onBind(intent: Intent?) = null
 
     override fun onCreate() {
-        vibrator = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+        val vibratorManager = getSystemService(Context.VIBRATOR_MANAGER_SERVICE) as VibratorManager
+        vibrator = vibratorManager.defaultVibrator
         prefs = getDePrefs()
 
         Log.i(TAG, "Initializing CHRE gesture")
