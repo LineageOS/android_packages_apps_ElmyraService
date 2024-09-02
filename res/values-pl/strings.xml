@@ -21,7 +21,7 @@
     <string name="settings_entry_summary_off">Wyłącz</string>
     <string name="settings_search_keywords">Aktywne krawędzie, ściskanie, krawędź, gest, pomoc, asystent</string>
     <string name="setting_enabled_title">Ściśnij telefon, aby wykonać akcję</string>
-    <string name="setting_enabled_summary">Aby wykonać akcję, ściśnij i puść boki telefonu, w pobliżu jego dolnej części.</string>
+    <string name="setting_enabled_summary">Aby wykonać akcję, ściśnij i puść boki telefonu, w pobliżu jego dolnej części</string>
     <string name="setting_sensitivity_title">Czułość</string>
     <string name="setting_sensitivity_light">Lekkie ściśnięcie</string>
     <string name="setting_sensitivity_firm">Mocne ściśnięcie</string>
