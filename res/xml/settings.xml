@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="@string/pref_key_enabled"
         android:title="@string/setting_enabled_title"
         android:summary="@string/setting_enabled_summary"
@@ -30,7 +30,7 @@
         android:defaultValue="@string/default_action"
         android:dependency="@string/pref_key_enabled" />
 
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="@string/pref_key_allow_screen_off"
         android:title="@string/setting_screen_off_title"
         android:summary="@string/setting_screen_off_summary"

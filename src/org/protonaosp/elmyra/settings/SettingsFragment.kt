@@ -21,7 +21,7 @@ import android.content.SharedPreferences
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.PreferenceManager
 import androidx.preference.ListPreference
-import androidx.preference.SwitchPreference
+import androidx.preference.SwitchPreferenceCompat
 import com.android.settings.widget.LabeledSeekBarPreference
 import com.android.settings.widget.SeekBarPreference
 
@@ -62,7 +62,7 @@ class SettingsFragment : PreferenceFragmentCompat(), SharedPreferences.OnSharedP
 
     private fun updateUi() {
         // Enabled
-        findPreference<SwitchPreference>(getString(R.string.pref_key_enabled))?.apply {
+        findPreference<SwitchPreferenceCompat>(getString(R.string.pref_key_enabled))?.apply {
             setChecked(prefs.getEnabled(context))
         }
 
@@ -79,7 +79,7 @@ class SettingsFragment : PreferenceFragmentCompat(), SharedPreferences.OnSharedP
         }
 
         // Screen state based on action
-        findPreference<SwitchPreference>(getString(R.string.pref_key_allow_screen_off))?.apply {
+        findPreference<SwitchPreferenceCompat>(getString(R.string.pref_key_allow_screen_off))?.apply {
             val screenForced = prefs.getBoolean(getString(R.string.pref_key_allow_screen_off_action_forced), false)
             setEnabled(!screenForced)
             if (screenForced) {
