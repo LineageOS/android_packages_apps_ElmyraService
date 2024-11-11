@@ -21,7 +21,7 @@
     <string name="settings_entry_summary_off">Diffodd</string>
     <string name="settings_search_keywords">Active Edge, gwasgu, ymyl, ystum, cynorthwyo, cynorthwyydd</string>
     <string name="setting_enabled_title">Gwasgwch y ffôn i gyflawni gweithred</string>
-    <string name="setting_enabled_summary">I gyflawni gweithred, gwasgwch a rhyddhewch ochrau eich ffôn ger y gwaelod</string>
+    <string name="setting_footer_content">I gyflawni gweithred, gwasgwch a rhyddhewch ochrau eich ffôn ger y gwaelod</string>
     <string name="setting_sensitivity_title">Sensitifrwydd</string>
     <string name="setting_sensitivity_light">Gwasgfa ysgafn</string>
     <string name="setting_sensitivity_firm">Gwasgfa gadarn</string>

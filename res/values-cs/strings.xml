@@ -21,7 +21,7 @@
     <string name="settings_entry_summary_off">Vypnuto</string>
     <string name="settings_search_keywords">Active Edge, zmáčknutí, okraj, edge, gesto, asistence, asistent</string>
     <string name="setting_enabled_title">Akce při zmáčknutí telefonu</string>
-    <string name="setting_enabled_summary">Chcete-li provést akci, zmáčkněte a uvolněte boky telefonu v dolní části</string>
+    <string name="setting_footer_content">Chcete-li provést akci, zmáčkněte a uvolněte boky telefonu v dolní části</string>
     <string name="setting_sensitivity_title">Citlivost</string>
     <string name="setting_sensitivity_light">Slabé zmáčknutí</string>
     <string name="setting_sensitivity_firm">Silné zmáčknutí</string>

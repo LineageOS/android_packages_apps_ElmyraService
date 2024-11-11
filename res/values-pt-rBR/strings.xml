@@ -21,7 +21,7 @@
     <string name="settings_entry_summary_off">Desativado</string>
     <string name="settings_search_keywords">Active Edge, aperto, borda, gesto, assistência, assistente</string>
     <string name="setting_enabled_title">Aperte o celular para realizar uma ação</string>
-    <string name="setting_enabled_summary">Para realizar uma ação, aperte e solte os lados da parte de baixo do seu celular</string>
+    <string name="setting_footer_content">Para realizar uma ação, aperte e solte os lados da parte de baixo do seu celular</string>
     <string name="setting_sensitivity_title">Sensibilidade</string>
     <string name="setting_sensitivity_light">Aperto leve</string>
     <string name="setting_sensitivity_firm">Aperto firme</string>

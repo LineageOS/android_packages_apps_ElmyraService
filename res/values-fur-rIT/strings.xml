@@ -21,7 +21,7 @@
     <string name="settings_entry_summary_off">Off</string>
     <string name="settings_search_keywords">Active Edge, strenç, ôrs, mots, assistent, assistence</string>
     <string name="setting_enabled_title">Strenç il telefon par fâ une azion</string>
-    <string name="setting_enabled_summary">Par eseguî une azion, strenç e mole la part basse dai flancs dal telefon</string>
+    <string name="setting_footer_content">Par eseguî une azion, strenç e mole la part basse dai flancs dal telefon</string>
     <string name="setting_sensitivity_title">Sensibilitât</string>
     <string name="setting_sensitivity_light">Pression lizere</string>
     <string name="setting_sensitivity_firm">Pression fuarte</string>

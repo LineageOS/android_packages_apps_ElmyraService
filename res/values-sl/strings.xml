@@ -21,7 +21,7 @@
     <string name="settings_entry_summary_off">Izklopljen</string>
     <string name="settings_search_keywords">Aktivni rob, stisk, rob, poteza, pomoč, pomočnik</string>
     <string name="setting_enabled_title">Stisnite telefon za izvedbo dejanja</string>
-    <string name="setting_enabled_summary">Za izvedbo dejanja, stisnite in izpustite stranici telefona blizu dna</string>
+    <string name="setting_footer_content">Za izvedbo dejanja, stisnite in izpustite stranici telefona blizu dna</string>
     <string name="setting_sensitivity_title">Občutljivost</string>
     <string name="setting_sensitivity_light">Nežen stisk</string>
     <string name="setting_sensitivity_firm">Čvrst stisk</string>

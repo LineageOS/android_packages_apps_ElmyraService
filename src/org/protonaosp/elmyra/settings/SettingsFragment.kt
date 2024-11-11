@@ -18,12 +18,13 @@ package org.protonaosp.elmyra.settings
 
 import android.os.Bundle
 import android.content.SharedPreferences
-import androidx.preference.PreferenceFragmentCompat
+import androidx.preference.PreferenceFragment
 import androidx.preference.PreferenceManager
 import androidx.preference.ListPreference
 import androidx.preference.SwitchPreferenceCompat
 import com.android.settings.widget.LabeledSeekBarPreference
 import com.android.settings.widget.SeekBarPreference
+import com.android.settingslib.widget.MainSwitchPreference
 
 import org.protonaosp.elmyra.R
 import org.protonaosp.elmyra.getDePrefs
@@ -34,11 +35,11 @@ import org.protonaosp.elmyra.getAction
 import org.protonaosp.elmyra.getActionName
 import org.protonaosp.elmyra.getAllowScreenOff
 
-class SettingsFragment : PreferenceFragmentCompat(), SharedPreferences.OnSharedPreferenceChangeListener {
+class SettingsFragment : PreferenceFragment(), SharedPreferences.OnSharedPreferenceChangeListener {
     private lateinit var prefs: SharedPreferences
 
     override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
-        setPreferencesFromResource(R.xml.settings, rootKey)
+        addPreferencesFromResource(R.xml.settings)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -62,7 +63,7 @@ class SettingsFragment : PreferenceFragmentCompat(), SharedPreferences.OnSharedP
 
     private fun updateUi() {
         // Enabled
-        findPreference<SwitchPreferenceCompat>(getString(R.string.pref_key_enabled))?.apply {
+        findPreference<MainSwitchPreference>(getString(R.string.pref_key_enabled))?.apply {
             setChecked(prefs.getEnabled(context))
         }
 

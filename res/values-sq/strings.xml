@@ -21,7 +21,7 @@
     <string name="settings_entry_summary_off">Fikur</string>
     <string name="settings_search_keywords">Edge aktive, shtrydhje, Edge, gjest, asistent, asistent</string>
     <string name="setting_enabled_title">Shtrydhni telefonin për të kryer veprimin</string>
-    <string name="setting_enabled_summary">Për të kryer një veprim, shtrydhni dhe lëshoni anët e telefonit tuaj pranë fundit</string>
+    <string name="setting_footer_content">Për të kryer një veprim, shtrydhni dhe lëshoni anët e telefonit tuaj pranë fundit</string>
     <string name="setting_sensitivity_title">Ndjeshmëria</string>
     <string name="setting_sensitivity_light">Shtrydhje e lehtë</string>
     <string name="setting_sensitivity_firm">Shtrydhje e fortë</string>
