@@ -21,7 +21,7 @@
     <string name="settings_entry_summary_off">გამორთ.</string>
     <string name="settings_search_keywords">Active Edge, შემოჭერა, კიდე, ჟესტი, დამხმარე, თანაშემწე</string>
     <string name="setting_enabled_title">მოუჭირეთ ტელეფონს მოქმედებისთვის</string>
-    <string name="setting_enabled_summary">მოქმედების შესასრულებლად, ხელი მოუჭირეთ და მოუშვით ტელეფონის ქვედა კიდეებზე</string>
+    <string name="setting_footer_content">მოქმედების შესასრულებლად, ხელი მოუჭირეთ და მოუშვით ტელეფონის ქვედა კიდეებზე</string>
     <string name="setting_sensitivity_title">მგრძნობელობა</string>
     <string name="setting_sensitivity_light">მსუბუქად შემოჭერა</string>
     <string name="setting_sensitivity_firm">ძლიერად შემოჭერა</string>

@@ -21,7 +21,7 @@
     <string name="settings_entry_summary_off">Desactivado</string>
     <string name="settings_search_keywords">Marxe activa, premer, marxe, xesto, asistencia, asistente</string>
     <string name="setting_enabled_title">Premer no teléfono para realizar unha acción</string>
-    <string name="setting_enabled_summary">Para realizar unha acción, preme e solta os lados da parte inferior do teléfono</string>
+    <string name="setting_footer_content">Para realizar unha acción, preme e solta os lados da parte inferior do teléfono</string>
     <string name="setting_sensitivity_title">Sensibilidade</string>
     <string name="setting_sensitivity_light">Presión leve</string>
     <string name="setting_sensitivity_firm">Presión firme</string>
