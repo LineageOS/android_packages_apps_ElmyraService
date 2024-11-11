@@ -24,6 +24,7 @@ android_app {
     static_libs: [
         "kotlin-stdlib",
         "androidx.preference_preference",
+        "SettingsLib",
     ],
     defaults: [
         "SettingsLibDefaults",

@@ -3,10 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <SwitchPreferenceCompat
+    <com.android.settingslib.widget.MainSwitchPreference
         android:key="@string/pref_key_enabled"
         android:title="@string/setting_enabled_title"
-        android:summary="@string/setting_enabled_summary"
         android:defaultValue="@bool/default_enabled" />
 
     <com.android.settings.widget.LabeledSeekBarPreference
@@ -36,5 +35,10 @@
         android:summary="@string/setting_screen_off_summary"
         android:defaultValue="@bool/default_allow_screen_off"
         android:dependency="@string/pref_key_enabled" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="@string/pref_key_footer"
+        android:title="@string/setting_enabled_summary"
+        android:selectable="false" />
 
 </PreferenceScreen>
