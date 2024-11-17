@@ -16,6 +16,24 @@
       "message": "Don\u0027t rename setting_enabled_summary, it will cause unnecessary issues on crowdin with translations. What device do you have with elmyra?",
       "revId": "7cf330e0a29d9d2b498688d524a01525a3a868e3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95041599_3972b1be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34167
+      },
+      "writtenOn": "2024-11-17T18:32:51Z",
+      "side": 1,
+      "message": "Oh! Okay, I changed commit to use setting_enabled_summary for footer.\nFor device, I have Google Pixel 3a XL (bonito).",
+      "parentUuid": "74620be5_6090dc00",
+      "revId": "7cf330e0a29d9d2b498688d524a01525a3a868e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
