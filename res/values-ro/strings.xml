@@ -20,7 +20,7 @@
     <string name="settings_entry_summary_on">Activ / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Oprit</string>
     <string name="settings_search_keywords">Active Edge, strângere, margine, gest, asistență, asistent</string>
-    <string name="setting_enabled_title">Strânge telefonul pentru a realiza acțiunea</string>
+    <string name="setting_enabled_title">Folosește Active Edge</string>
     <string name="setting_enabled_summary">Pentru a efectua o acțiune, strângeți și eliberați marginile telefonului din partea de jos</string>
     <string name="setting_sensitivity_title">Sensibilitate</string>
     <string name="setting_sensitivity_light">Strângere ușoară</string>

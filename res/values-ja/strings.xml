@@ -20,7 +20,7 @@
     <string name="settings_entry_summary_on">ON / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">OFF</string>
     <string name="settings_search_keywords">Active Edge、握る、エッジ、ジェスチャー、アシスト、アシスタント</string>
-    <string name="setting_enabled_title">端末を握ってアクションを起動</string>
+    <string name="setting_enabled_title">Active Edge を使用</string>
     <string name="setting_enabled_summary">アクションを起動するには、端末のボタン付近の両端を握った後に離してください。</string>
     <string name="setting_sensitivity_title">感度</string>
     <string name="setting_sensitivity_light">軽い握り</string>

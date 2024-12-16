@@ -20,7 +20,6 @@
     <string name="settings_entry_summary_on">Actiu / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Desactivat</string>
     <string name="settings_search_keywords">Active Edge, aixafa, vora, gest, ajudar, ajudant</string>
-    <string name="setting_enabled_title">Aixafeu el telèfon per realitzar accions</string>
     <string name="setting_enabled_summary">Per realitzar una acció, aixafeu i deixeu anar els costats del telèfon a prop de la part inferior</string>
     <string name="setting_sensitivity_title">Sensibilitat</string>
     <string name="setting_sensitivity_light">Aixafat lleuger</string>

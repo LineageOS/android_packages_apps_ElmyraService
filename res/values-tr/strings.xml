@@ -20,7 +20,6 @@
     <string name="settings_entry_summary_on">Açık / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Kapalı</string>
     <string name="settings_search_keywords">Active Edge, sıkma, kenar, hareket, yardım, asistan</string>
-    <string name="setting_enabled_title">İşlemi gerçekleştirmek için telefonu sıkın</string>
     <string name="setting_enabled_summary">Bir işlem gerçekleştirmek için telefonun alt kısmının kenarlarını sıkıştırın</string>
     <string name="setting_sensitivity_title">Hassasiyet</string>
     <string name="setting_sensitivity_light">Hafif sıkma</string>

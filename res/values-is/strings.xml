@@ -20,7 +20,6 @@
     <string name="settings_entry_summary_on">Kveikt / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Slökkt</string>
     <string name="settings_search_keywords">Active Edge, virkar skjábrúnir, kreista, brún, jaðar, bending, aðstoð, leiðarvísir</string>
-    <string name="setting_enabled_title">Kreistu símann til að framkvæma aðgerð</string>
     <string name="setting_enabled_summary">Til að framkvæma aðgerð, skaltu kreista og sleppa hliðum símans nálægt neðri enda hans</string>
     <string name="setting_sensitivity_title">Næmni</string>
     <string name="setting_sensitivity_light">Létt kreista</string>

@@ -20,7 +20,6 @@
     <string name="settings_entry_summary_on">Ligado / <xliff:g id="action" example="Realizar captura de ecrã">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Desligado</string>
     <string name="settings_search_keywords">Active Edge, apertar, borda, gesto, assistência, assistente</string>
-    <string name="setting_enabled_title">Apertar o telefone para executar uma ação</string>
     <string name="setting_enabled_summary">Para executar uma ação, aperte e solte os lados do seu telefone perto da parte inferior</string>
     <string name="setting_sensitivity_title">Sensibilidade</string>
     <string name="setting_sensitivity_light">Aperto ligeiro</string>

@@ -20,7 +20,7 @@
     <string name="settings_entry_summary_on">Bật / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Tắt</string>
     <string name="settings_search_keywords">Active Edge, bóp, viền, cử chỉ, hỗ trợ, trợ lý</string>
-    <string name="setting_enabled_title">Bóp nhẹ điện thoại để thực hiện hành động</string>
+    <string name="setting_enabled_title">Sử dụng Active Edge</string>
     <string name="setting_enabled_summary">Để thực hiện một tác vụ, hãy bóp và thả các cạnh của điện thoại ở gần phía dưới cùng</string>
     <string name="setting_sensitivity_title">Độ nhạy</string>
     <string name="setting_sensitivity_light">Bóp nhẹ</string>

@@ -20,7 +20,6 @@
     <string name="settings_entry_summary_on">Til / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Slukket</string>
     <string name="settings_search_keywords">Aktiv kant, klemme, kant, gestus, assistent, assistent</string>
-    <string name="setting_enabled_title">Klem telefonen for at udføre handling</string>
     <string name="setting_enabled_summary">For at udføre en handling, klem og slip siderne af din telefon nær bunden</string>
     <string name="setting_sensitivity_title">Sensitivitet</string>
     <string name="setting_sensitivity_light">Let klem</string>

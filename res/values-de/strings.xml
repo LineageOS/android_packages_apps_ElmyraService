@@ -20,7 +20,6 @@
     <string name="settings_entry_summary_on">Bei / <xliff:g id="action">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Aus</string>
     <string name="settings_search_keywords">Active Edge, Zusammendrücken, Rand, Geste, Assistent</string>
-    <string name="setting_enabled_title">Gerät zusammendrücken, um eine Aktion auszulösen</string>
     <string name="setting_enabled_summary">Untere Hälfte des Geräts kurz zusammendrücken und loslassen, um eine Aktion auszulösen</string>
     <string name="setting_sensitivity_title">Empfindlichkeit</string>
     <string name="setting_sensitivity_light">Leicht drücken</string>

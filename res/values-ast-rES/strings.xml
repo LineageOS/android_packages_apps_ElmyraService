@@ -20,7 +20,6 @@
     <string name="settings_entry_summary_on">Sí / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Non</string>
     <string name="settings_search_keywords">Active Edge, berbesu, xestu, asistente, asistir, apertar, apertamientu, presión</string>
-    <string name="setting_enabled_title">Apertar el teléfonu pa facer una aición</string>
     <string name="setting_enabled_summary">Pa facer dalguna aición, apierta y suelta los berbesos del teléfonu cierca de la parte baxera</string>
     <string name="setting_sensitivity_title">Sensibilidá</string>
     <string name="setting_sensitivity_light">Presión llixera</string>

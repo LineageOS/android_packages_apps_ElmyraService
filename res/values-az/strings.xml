@@ -20,7 +20,7 @@
     <string name="settings_entry_summary_on">Açıq / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Bağlı</string>
     <string name="settings_search_keywords">Aktiv Edge, sıxma, künc, jest, kömək, köməkçi</string>
-    <string name="setting_enabled_title">Əməliyyatı icra etmək üçün telefonu sıxın</string>
+    <string name="setting_enabled_title">Active Edge-ni istifadə et</string>
     <string name="setting_enabled_summary">Bir əməliyyat icra etmək üçün telefonun aşağı hissəsinin kənarlarını sıxıb buraxın</string>
     <string name="setting_sensitivity_title">Həssaslıq</string>
     <string name="setting_sensitivity_light">Yüngül sıxma</string>

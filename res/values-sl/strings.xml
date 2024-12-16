@@ -20,7 +20,7 @@
     <string name="settings_entry_summary_on">Vklopljen / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Izklopljen</string>
     <string name="settings_search_keywords">Aktivni rob, stisk, rob, poteza, pomoč, pomočnik</string>
-    <string name="setting_enabled_title">Stisnite telefon za izvedbo dejanja</string>
+    <string name="setting_enabled_title">Uporabi aktivni rob</string>
     <string name="setting_enabled_summary">Za izvedbo dejanja, stisnite in izpustite stranici telefona blizu dna</string>
     <string name="setting_sensitivity_title">Občutljivost</string>
     <string name="setting_sensitivity_light">Nežen stisk</string>

@@ -20,7 +20,7 @@
     <string name="settings_entry_summary_on">Aan / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Uit</string>
     <string name="settings_search_keywords">Actieve Edge, squeeze, randen, gebaar, helpen, assistent</string>
-    <string name="setting_enabled_title">Knijp in toestel om actie uit te voeren</string>
+    <string name="setting_enabled_title">Gebruik actieve rand</string>
     <string name="setting_enabled_summary">Om een actie uit te voeren, knijp in de zijkant van je toestel nabij de onderkant</string>
     <string name="setting_sensitivity_title">Gevoeligheid</string>
     <string name="setting_sensitivity_light">Licht knijpen</string>

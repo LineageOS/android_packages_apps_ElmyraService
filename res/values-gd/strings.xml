@@ -20,7 +20,6 @@
     <string name="settings_entry_summary_on">Air / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Dheth</string>
     <string name="settings_search_keywords">Active Edge, squeeze, edge, gesture, assist, assistant, dinn, oir, gluasad, cuidich, chuidiche</string>
-    <string name="setting_enabled_title">Dinn am fòn airson gnìomh a ghabhail</string>
     <string name="setting_enabled_summary">Airson gnìomh a ghabhail, dinn is leig às cliathaichean an fhòn agad faisg air a’ bhonn</string>
     <string name="setting_sensitivity_title">Mothalachd</string>
     <string name="setting_sensitivity_light">Dinneadh lag</string>

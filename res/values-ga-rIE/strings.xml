@@ -20,7 +20,7 @@
     <string name="settings_entry_summary_on">Ar / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">As</string>
     <string name="settings_search_keywords">Imeall Gníomhach, fáisc, imeall, gotha, cuidigh, cúnta</string>
-    <string name="setting_enabled_title">Fáisc an guthán chun gníomh a dhéanamh</string>
+    <string name="setting_enabled_title">Úsáid Imeall Gníomhach</string>
     <string name="setting_enabled_summary">Chun gníomh a dhéanamh, fáisc agus scaoil taobhanna do ghutháin gar don bhun</string>
     <string name="setting_sensitivity_title">Íogaireacht</string>
     <string name="setting_sensitivity_light">Fáisc éadrom</string>

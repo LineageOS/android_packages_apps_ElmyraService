@@ -20,7 +20,7 @@
     <string name="settings_entry_summary_on"><xliff:g id="action" example="Take screenshot">%1$s</xliff:g> / Be</string>
     <string name="settings_entry_summary_off">Ki</string>
     <string name="settings_search_keywords">Aktív készülékszél, összenyomás, szélek, mozdulatvezérlés, segéd</string>
-    <string name="setting_enabled_title">Művelet a készülékszélek összenyomásával</string>
+    <string name="setting_enabled_title">Az \'Aktív készülékszélek\' bekapcsolása</string>
     <string name="setting_enabled_summary">Művelet végrehajtásához nyomja össze majd engedje el a telefon széleit a telefon alja közelében</string>
     <string name="setting_sensitivity_title">Érzékenység</string>
     <string name="setting_sensitivity_light">Enyhe összenyomás</string>

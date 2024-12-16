@@ -20,7 +20,7 @@
     <string name="settings_entry_summary_on">On / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Off</string>
     <string name="settings_search_keywords">Active Edge, squeeze, edge, gesture, assist, assistant</string>
-    <string name="setting_enabled_title">Squeeze phone to perform action</string>
+    <string name="setting_enabled_title">Use Active Edge</string>
     <string name="setting_enabled_summary">To perform an action, squeeze and release the sides of your phone near the bottom</string>
     <string name="setting_sensitivity_title">Sensitivity</string>
     <string name="setting_sensitivity_light">Light squeeze</string>

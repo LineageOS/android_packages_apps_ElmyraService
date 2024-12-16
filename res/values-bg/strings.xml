@@ -20,7 +20,6 @@
     <string name="settings_entry_summary_on">Вкл / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Изкл</string>
     <string name="settings_search_keywords">Active Edge, стискане, ъгъл, жест, помощ, асистент</string>
-    <string name="setting_enabled_title">Стиснете телефона, за извършване на действие</string>
     <string name="setting_enabled_summary">За да извършите действие, стиснете и отпуснете страните на телефона си близо до долната част на корпуса</string>
     <string name="setting_sensitivity_title">Чувствителност</string>
     <string name="setting_sensitivity_light">Леко стисване</string>

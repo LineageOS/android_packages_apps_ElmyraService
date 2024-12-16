@@ -20,7 +20,6 @@
     <string name="settings_entry_summary_on">চালু / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">বন্ধ</string>
     <string name="settings_search_keywords">সক্রিয় এজ, স্কুইজ, এজ, জেসচার, অ্যাসিস্ট, অ্যাসিস্ট্যান্ট</string>
-    <string name="setting_enabled_title">ক্রিয়া সম্পাদনের জন্য ফোন স্কুইজ করুন</string>
     <string name="setting_enabled_summary">ক্রিয়া সম্পাদনের জন্য ফোনের নিচের অংশে স্কুইজ করে ছেড়ে দিন</string>
     <string name="setting_sensitivity_title">সেনসিটিভিটি</string>
     <string name="setting_sensitivity_light">হালকা স্কুইজ</string>
