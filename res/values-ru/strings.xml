@@ -20,6 +20,7 @@
     <string name="settings_entry_summary_on">Вкл. / <xliff:g id="action" example="Сделать скриншот">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Выкл.</string>
     <string name="settings_search_keywords">Active Edge, сжатие, edge, жест, помощь, ассистент</string>
+    <string name="setting_enabled_title">Использовать активный край</string>
     <string name="setting_enabled_summary">Для выполнения действия сожмите и отпустите боковые стороны телефона в нижней части корпуса.</string>
     <string name="setting_sensitivity_title">Чувствительность</string>
     <string name="setting_sensitivity_light">Легкое сжатие</string>

@@ -20,6 +20,7 @@
     <string name="settings_entry_summary_on">Ενεργό / <xliff:g id="action" example="Λήψη στιγμιότυπου οθόνης">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Aνενεργό</string>
     <string name="settings_search_keywords">Active Edge, πίεση, άκρη, χειρονομία, βοήθεια, βοηθός</string>
+    <string name="setting_enabled_title">Χρήση Active Edge</string>
     <string name="setting_enabled_summary">Για να εκτελέσετε μια ενέργεια, πιέστε και απελευθερώστε τις πλευρές του τηλεφώνου σας κοντά στο κάτω μέρος</string>
     <string name="setting_sensitivity_title">Ευαισθησία</string>
     <string name="setting_sensitivity_light">Ελαφριά συμπίεση</string>

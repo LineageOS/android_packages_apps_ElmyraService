@@ -20,6 +20,7 @@
     <string name="settings_entry_summary_on">开启/ <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">关闭</string>
     <string name="settings_search_keywords">活动边缘、握压、边缘、手势、辅助、助手</string>
+    <string name="setting_enabled_title">使用边缘压感 </string>
     <string name="setting_enabled_summary">要执行操作，请握压并松开靠近底部的手机侧面</string>
     <string name="setting_sensitivity_title">敏感度</string>
     <string name="setting_sensitivity_light">轻轻握压</string>

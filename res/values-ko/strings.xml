@@ -20,6 +20,7 @@
     <string name="settings_entry_summary_on">켜짐 / <xliff:g id="action" example="화면 캡처">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">꺼짐</string>
     <string name="settings_search_keywords">Active Edge, 쥐기, 엣지, 제스처, 조수, 어시스턴트, 도움</string>
+    <string name="setting_enabled_title">Active Edge 사용</string>
     <string name="setting_enabled_summary">작업을 실행하려면 기기 양쪽의 아랫부분을 쥐었다 놓으세요.</string>
     <string name="setting_sensitivity_title">민감도</string>
     <string name="setting_sensitivity_light">가볍게 쥐기</string>
