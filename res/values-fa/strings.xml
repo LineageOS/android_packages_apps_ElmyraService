@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2020 The Proton AOSP Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">سرویس گوشه فعال</string>
+    <string name="settings_entry_title">گوشه فعال</string>
+    <string name="settings_entry_summary_on">روشن / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">خاموش</string>
+    <string name="settings_search_keywords">گوشه فعال، فشار، لبه، اشاره، کمکی، دستیار</string>
+    <string name="setting_enabled_summary">برای انجام یک عمل، قسمت‌های پایین کناره‌های گوشی خود را فشار داده و رها کنید.</string>
+    <string name="setting_sensitivity_title">حساسیت</string>
+    <string name="setting_sensitivity_light">فشار سبک</string>
+    <string name="setting_sensitivity_firm">فشار محکم</string>
+    <string name="setting_screen_off_title">اجازه زمانی که صفحه خاموش هست</string>
+    <string name="setting_screen_off_summary">ممکن است محرک های کاذب را افزایش دهد</string>
+    <string name="setting_screen_off_blocked_summary">مسدود شده توسط عمل فعلی</string>
+    <string name="setting_action_title">در فشار</string>
+    <string name="action_screenshot_name">گرفتن تصویر از صفحه</string>
+    <string name="action_assistant_name">باز کردن دستیار</string>
+    <string name="action_camera_name">باز کردن دوربین</string>
+    <string name="action_power_menu_name">باز کردن منوی نیرو</string>
+    <string name="action_mute_name">بی‌صدا کردن تماس‌ها و اعلان‌ها</string>
+    <string name="action_flashlight_name">روشن/خاموش کردن چراغ‌قوه</string>
+    <string name="action_screen_name">روشن/خاموش کردن صفحه نمایش</string>
+</resources>
