@@ -26,6 +26,8 @@
     <string name="setting_sensitivity_light">Létt kreista</string>
     <string name="setting_sensitivity_firm">Þétt kreista</string>
     <string name="setting_screen_off_title">Leyfa þegar slökkt er á skjánum</string>
+    <string name="setting_screen_off_summary">Gæti fjölgað fölskum vekjurum</string>
+    <string name="setting_screen_off_blocked_summary">Útilokað af fyrirliggjandi aðgerð</string>
     <string name="setting_action_title">Við kreistingu</string>
     <string name="action_screenshot_name">Taka skjámynd</string>
     <string name="action_assistant_name">Opna leiðarvísi</string>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2020 The Proton AOSP Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Seirbhís Imeall Gníomhach</string>
+    <string name="settings_entry_title">Imeall Gníomhach</string>
+    <string name="settings_entry_summary_on">Ar / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">As</string>
+    <string name="settings_search_keywords">Imeall Gníomhach, fáisc, imeall, gotha, cuidigh, cúnta</string>
+    <string name="setting_enabled_title">Fáisc an guthán chun gníomh a dhéanamh</string>
+    <string name="setting_enabled_summary">Chun gníomh a dhéanamh, fáisc agus scaoil taobhanna do ghutháin gar don bhun</string>
+    <string name="setting_sensitivity_title">Íogaireacht</string>
+    <string name="setting_sensitivity_light">Fáisc éadrom</string>
+    <string name="setting_sensitivity_firm">Fáisc daingean</string>
+    <string name="setting_screen_off_title">Ceadaigh nuair a bhíonn an scáileán múchta</string>
+    <string name="setting_screen_off_summary">D’fhéadfadh sé go méadódh sé spreagóirí bréagacha</string>
+    <string name="setting_screen_off_blocked_summary">Blocáilte ag an ngníomh reatha</string>
+    <string name="setting_action_title">Ar fáisc</string>
+    <string name="action_screenshot_name">Tóg seat scáileáin</string>
+    <string name="action_assistant_name">Oscail cúntóir</string>
+    <string name="action_camera_name">Oscail ceamara</string>
+    <string name="action_power_menu_name">Oscail roghchlár cumhachta</string>
+    <string name="action_mute_name">Balbhaigh glaonna agus fógraí</string>
+    <string name="action_flashlight_name">Cuir an tóirse ar siúl/as</string>
+    <string name="action_screen_name">Cas ar/as an scáileán</string>
+</resources>

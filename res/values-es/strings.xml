@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2020 The Proton AOSP Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Servicio Active Edge</string>
+    <string name="settings_entry_title">Active Edge</string>
+    <string name="settings_entry_summary_on">Activar / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Desactivado</string>
+    <string name="settings_search_keywords">Active Edge, apretar, borde, gesto, asistir, asistente</string>
+    <string name="setting_enabled_title">Aprieta el teléfono para realizar una acción</string>
+    <string name="setting_enabled_summary">Para realizar una acción, aprieta y suelta los lados de tu teléfono cerca de la parte inferior</string>
+    <string name="setting_sensitivity_title">Sensibilidad</string>
+    <string name="setting_sensitivity_light">Apretar ligeramente</string>
+    <string name="setting_sensitivity_firm">Apretar con fuerza</string>
+    <string name="setting_screen_off_title">Permitir cuando la pantalla esté apagada</string>
+    <string name="setting_screen_off_summary">Puede aumentar falsas activaciones</string>
+    <string name="setting_screen_off_blocked_summary">Bloqueado por la acción actual</string>
+    <string name="setting_action_title">Al apretar</string>
+    <string name="action_screenshot_name">Capturar pantalla</string>
+    <string name="action_assistant_name">Abrir asistente</string>
+    <string name="action_camera_name">Abrir cámara</string>
+    <string name="action_power_menu_name">Abrir menú de apagado </string>
+    <string name="action_mute_name">Silenciar llamadas y notificaciones</string>
+    <string name="action_flashlight_name">Encender/Apagar linterna</string>
+    <string name="action_screen_name">Encender/Apagar pantalla</string>
+</resources>

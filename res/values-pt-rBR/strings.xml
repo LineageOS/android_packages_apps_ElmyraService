@@ -15,10 +15,24 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Serviço Borda Ativa</string>
+    <string name="settings_entry_title">Borda Ativa</string>
+    <string name="settings_entry_summary_on">Ativado / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Desativado</string>
+    <string name="settings_search_keywords">Borda Ativa, aperto, borda, gesto, assistência, assistente</string>
+    <string name="setting_enabled_title">Aperte o celular para realizar uma ação</string>
+    <string name="setting_enabled_summary">Para realizar uma ação, aperte e solte os lados da parte de baixo do seu celular</string>
     <string name="setting_sensitivity_title">Sensibilidade</string>
+    <string name="setting_sensitivity_light">Aperto leve</string>
+    <string name="setting_sensitivity_firm">Aperto firme</string>
+    <string name="setting_screen_off_title">Permitir com a tela desligada</string>
+    <string name="setting_screen_off_summary">Pode causar ativações acidentais</string>
+    <string name="setting_screen_off_blocked_summary">Bloqueado pela ação atual</string>
+    <string name="setting_action_title">Ao apertar</string>
     <string name="action_screenshot_name">Capturar tela</string>
     <string name="action_assistant_name">Abrir assistente</string>
     <string name="action_camera_name">Abrir câmera</string>
+    <string name="action_power_menu_name">Abrir menu de energia</string>
     <string name="action_mute_name">Silenciar chamadas e notificações</string>
     <string name="action_flashlight_name">Ligar/desligar a lanterna</string>
     <string name="action_screen_name">Ligar/desligar a tela</string>
