@@ -20,6 +20,7 @@
     <string name="settings_entry_summary_on">On / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Off</string>
     <string name="settings_search_keywords">Active Edge, strenç, ôrs, mots, assistent, assistence</string>
+    <string name="setting_enabled_title">Dopre Active Edge</string>
     <string name="setting_enabled_summary">Par eseguî une azion, strenç e mole la part basse dai flancs dal telefon</string>
     <string name="setting_sensitivity_title">Sensibilitât</string>
     <string name="setting_sensitivity_light">Pression lizere</string>
