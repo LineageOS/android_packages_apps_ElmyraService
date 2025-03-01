@@ -20,6 +20,7 @@
     <string name="settings_entry_summary_on">Activé / <xliff:g id="action" example="Prendre une capture d\'écran">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Désactivé</string>
     <string name="settings_search_keywords">Active Edge, pression, bords, gestes, assistance, assistant</string>
+    <string name="setting_enabled_title">Utiliser Active Edge</string>
     <string name="setting_enabled_summary">Pour effectuer une action, pressez et relâchez les côtés de la partie inférieure de votre téléphone</string>
     <string name="setting_sensitivity_title">Sensibilité</string>
     <string name="setting_sensitivity_light">Pression légère</string>

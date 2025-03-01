@@ -20,6 +20,7 @@
     <string name="settings_entry_summary_on">روشن / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">خاموش</string>
     <string name="settings_search_keywords">گوشه فعال، فشار، لبه، اشاره، کمکی، دستیار</string>
+    <string name="setting_enabled_title">استفاده از لبه فعال</string>
     <string name="setting_enabled_summary">برای انجام یک عمل، قسمت‌های پایین کناره‌های گوشی خود را فشار داده و رها کنید.</string>
     <string name="setting_sensitivity_title">حساسیت</string>
     <string name="setting_sensitivity_light">فشار سبک</string>
