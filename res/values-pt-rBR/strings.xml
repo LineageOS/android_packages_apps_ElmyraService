@@ -15,12 +15,12 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Serviço Borda Ativa</string>
-    <string name="settings_entry_title">Borda Ativa</string>
-    <string name="settings_entry_summary_on">Ativado / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
-    <string name="settings_entry_summary_off">Desativado</string>
-    <string name="settings_search_keywords">Borda Ativa, aperto, borda, gesto, assistência, assistente</string>
-    <string name="setting_enabled_title">Usar Borda Ativa</string>
+    <string name="app_name">Serviço do Active Edge</string>
+    <string name="settings_entry_title">Active Edge</string>
+    <string name="settings_entry_summary_on">Ativada / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Desativada</string>
+    <string name="settings_search_keywords">Active Edge, aperto, borda, gesto, assistência, assistente</string>
+    <string name="setting_enabled_title">Usar Active Edge</string>
     <string name="setting_enabled_summary">Para realizar uma ação, aperte e solte os lados da parte de baixo do seu celular</string>
     <string name="setting_sensitivity_title">Sensibilidade</string>
     <string name="setting_sensitivity_light">Aperto leve</string>
