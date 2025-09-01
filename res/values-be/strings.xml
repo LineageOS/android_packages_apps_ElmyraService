@@ -15,6 +15,7 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_entry_summary_off">Выключана</string>
     <string name="setting_screen_off_blocked_summary">Заблакіравана бягучым дзеяннем</string>
     <string name="action_flashlight_name">Уключыць/выключыць ліхтарык</string>
     <string name="action_screen_name">Уключыць/выключыць экран</string>

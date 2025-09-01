@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2020 The Proton AOSP Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">שרות קצה פעיל</string>
+    <string name="settings_entry_title">קצה פעיל</string>
+    <string name="settings_entry_summary_off">כיבוי</string>
+    <string name="setting_enabled_title">שימוש בקצה פעיל</string>
+    <string name="setting_enabled_summary">לביצוע פעולה, יש ללחוץ ולהרפות בצידי הטלפון ליד החלק התחתון</string>
+    <string name="setting_sensitivity_title">רגישות</string>
+    <string name="setting_sensitivity_light">לחיצה קלה</string>
+    <string name="setting_sensitivity_firm">לחיצה חזקה</string>
+    <string name="setting_screen_off_title">אפשר כאשר המסך כבוי</string>
+    <string name="setting_screen_off_summary">עלול להגביר פעולות שווא</string>
+    <string name="setting_screen_off_blocked_summary">נחסם על ידי הפעולה נוכחית</string>
+    <string name="setting_action_title">בלחיצה</string>
+    <string name="action_screenshot_name">צלם מסך</string>
+    <string name="action_assistant_name">פתיחת מסייע</string>
+    <string name="action_camera_name">פתיחת מצלמה</string>
+    <string name="action_power_menu_name">פתיחת תפריט ההפעלה</string>
+    <string name="action_mute_name">השתק שיחות והתראות</string>
+    <string name="action_flashlight_name">הפעלת/כיבוי הפנס</string>
+    <string name="action_screen_name">הפעלת/כיבוי המסך</string>
+</resources>
