@@ -17,7 +17,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">שרות קצה פעיל</string>
     <string name="settings_entry_title">קצה פעיל</string>
+    <string name="settings_entry_summary_on">הפעלה / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">כיבוי</string>
+    <string name="settings_search_keywords">קצה פעיל, לחיצה, קצה, מחווה, סיוע, עוזר</string>
     <string name="setting_enabled_title">שימוש בקצה פעיל</string>
     <string name="setting_enabled_summary">לביצוע פעולה, יש ללחוץ ולהרפות בצידי הטלפון ליד החלק התחתון</string>
     <string name="setting_sensitivity_title">רגישות</string>
